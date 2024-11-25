@@ -1,5 +1,5 @@
 <?php
-    $showcase = $_GET['showcase'] ?? 'default'; 
+    $layouts = $_GET['layouts'] ?? 'default'; 
 ?>
 <html>
     <head>
@@ -8,9 +8,9 @@
     <body>
         <div class="container">
             <?php
-                include("./layouts/{$showcase}/header.php");
-                include("./layouts/{$showcase}/body.php");
-                include("./layouts/{$showcase}/footer.php");
+                include("./layouts/{$layouts}/header.php");
+                include("./layouts/{$layouts}/body.php");
+                include("./layouts/{$layouts}/footer.php");
             ?>
         </div>
     </body>
