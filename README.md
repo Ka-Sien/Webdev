@@ -74,5 +74,5 @@ pushes all local tags
 Terminology:
 
 remote (repository/server): A common repository that all team members use to exchange their changes. Usually stored in a code hosting service like GitHub.
-origin: Is a shorthand name for the remote repository(URL) that a project was originally cloned from. Example: origin = https://github.com/Ka-Sien/InternShip.git
+origin: Is a shorthand name for the remote repository(URL) that a project was originally cloned from. Example: origin = https://github.com/Ka-Sien/Webdev.git
 HEAD: Reference to the last commit in the currently checked-out branch. You can see the HEAD as the "Current Branch".
