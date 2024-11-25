@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+    min-height:40px;
+}
+
+.footer-left {
+}
+
+.footer-center {
+}       
+
+.footer-right {
+
+}
